@@ -12,7 +12,7 @@ import { HeaderComponent } from './header/header.component';
 
 
 const appRoutes: Routes =[
-  { path: '', component: AppComponent },
+  { path: '#', component: AppComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'signin', component: SigninComponent },
 ];
